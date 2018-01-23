@@ -173,7 +173,7 @@ p.logo strong {
 	color: #fff;
 	font-size: 0.85em;
 }
-#features {
+#servicios {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
@@ -181,7 +181,7 @@ p.logo strong {
 	text-align: center;
 	z-index: 2;
 }
-#features i {
+#servicios i {
 	background: none repeat scroll 0 0 #c59a26;
 	border-radius: 100px;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
@@ -193,13 +193,13 @@ p.logo strong {
 	text-align: center;
 	width: 100px;
 }
-#features h2 {
+#servicios h2 {
 	font-size: 1em;
 	font-weight: 600;
 	margin: 1.25em 0;
 	text-transform: uppercase;
 }
-#features p {
+#servicios p {
 	color: #777;
 	font-size: 0.85em;
 	line-height: 1.5em;

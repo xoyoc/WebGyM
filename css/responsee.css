@@ -1,5 +1,5 @@
-/*
- * Responsee CSS - v4 - 2016-07-08
+﻿/*
+ * Responsee CSS - v4.1 - 2017-05-14
  * https://www.myresponsee.com
  * Copyright 2016, Vision Design - graphic zoo
  * Free to use under the MIT license.
@@ -122,6 +122,7 @@ nav {
   display:block;
   height:0;
   line-height:0;
+  overflow: hidden;
   visibility:hidden;
 }
 .top-nav ul {padding:0;}
@@ -257,7 +258,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .margin2x {margin:0 -1.25rem;}
 .line {clear:left;}
 .line .line {padding:0;}
-.hide-l {display:none;}
+.hide-l {display:none!important;}
 .box {
   background:none repeat scroll 0 0 #fff;
   display:block;
@@ -332,8 +333,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .left {float:left;}  
 @media screen and (max-width:768px) {
   .size-960,.size-1140,.size-1280 {max-width:768px;}
-  .hide-l,.hide-s {display:block;}
-  .hide-m {display:none;}
+  .hide-l,.hide-s {display:block!important;}
+  .hide-m {display:none!important;}
   nav {
     display:block;
     cursor:pointer;
@@ -488,8 +489,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
     height:0;
     overflow:hidden;
   }
-  .hide-l,.hide-m {display:block;}
-  .hide-s {display:none;}
+  .hide-l,.hide-m {display:block!important;}
+  .hide-s {display:none!important;}
   .count-number {margin-right:-1.25rem;} 
   .l-offset-1,.l-offset-2,.l-offset-five,.l-offset-3,.l-offset-4,.l-offset-5,.l-offset-6,.l-offset-7,.l-offset-8,.l-offset-9,.l-offset-10,.l-offset-11,.l-offset-12,
   .m-offset-1,.m-offset-2,.m-offset-five,.m-offset-3,.m-offset-4,.m-offset-5,.m-offset-6,.m-offset-7,.m-offset-8,.m-offset-9,.m-offset-10,.m-offset-11,.m-offset-12 {margin-left:0;}
