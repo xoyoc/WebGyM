@@ -17,3 +17,7 @@
 .fondoBlanco{
 	background-color: white;
 }
+
+#mapa iframe{
+	width: 100%;
+}
