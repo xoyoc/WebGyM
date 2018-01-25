@@ -34,14 +34,12 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	color: #92c500;
 }
 #topbar {
-	background: none repeat scroll 0 0 #0f2d11;
 	border-bottom: 1px solid #001925;
 	padding: 0.3125em 0;
 }
 #topbar p {
 	color: #fff;
 	font-size: 0.75em;
-	opacity: 0.5;
 	position: relative;
 	top: 2px;
 }
@@ -181,18 +179,7 @@ p.logo strong {
 	text-align: center;
 	z-index: 2;
 }
-#servicios i {
-	background: none repeat scroll 0 0 #c59a26;
-	border-radius: 100px;
-	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
-	color: #fff;
-	display: inline-block;
-	font-size: 2em;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	width: 100px;
-}
+
 #servicios h2 {
 	font-size: 1em;
 	font-weight: 600;

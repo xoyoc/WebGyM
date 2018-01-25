@@ -6,6 +6,14 @@
 	color: #c59a26;
 }
 
+.textoCenter{
+	text-align: center;
+}
+
+.textoGris{
+	color:#4D4D4D;
+}
+
 .fondoAmarillo{
 	background-color: #CA8B0C;
 }
@@ -22,9 +30,25 @@
 	background: none repeat scroll 0 0 #0f2d11;
 }
 
+.fondoVerdeOscuro{
+	background: none repeat scroll 0 0 #07200B;
+}
+
+.fondoVerdeClaro{
+	background: none repeat scroll 0 0 #114821;
+}
+
 .icon{
 	width: 50%;
 	margin: 0 auto;
+}
+
+.cruz{
+	color: white;
+    background-color: #CA8B0C;
+    padding: .5px 3px 2px;
+    margin-right: 5px;
+    text-align: center;
 }
 
 #mapa iframe{
