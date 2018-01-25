@@ -6,12 +6,26 @@
 	color: #c59a26;
 }
 
+.textoVerde{
+	color:#07200B;
+}
+
 .textoCenter{
 	text-align: center;
 }
 
 .textoGris{
 	color:#4D4D4D;
+}
+
+.textoCoTi{
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.textoCenter{
+	text-align: center;
 }
 
 .fondoAmarillo{
