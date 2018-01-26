@@ -18,6 +18,10 @@
 	color:#4D4D4D;
 }
 
+.textoBold{
+	font-weight: bold;
+}
+
 .textoCoTi{
 	font-weight: bold;
 	font-size: 2em;
@@ -26,6 +30,12 @@
 
 .textoCenter{
 	text-align: center;
+}
+
+.livetrackTitulo{
+	margin-top:1em;
+	text-transform: uppercase;
+	color:#D7D7D7;
 }
 
 .fondoAmarillo{
@@ -50,6 +60,23 @@
 
 .fondoVerdeClaro{
 	background: none repeat scroll 0 0 #114821;
+}
+
+.botonVerde{
+	background: #114821;
+	color: white;
+	width: 85%;
+	padding: 1em;
+	margin: 2em 0;
+}
+
+.entradaLiveTrack{
+	font-family:sli;
+	font-size: 1.3em;
+	margin: 10px 0;
+	border: none;
+	border-bottom: solid 1px;
+	padding-bottom: 10px;
 }
 
 .icon{
