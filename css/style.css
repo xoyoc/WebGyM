@@ -148,11 +148,12 @@
 }
 
 .iconSocial{
-	width: 10%;
+	width: 15%;
+	display: inline;
 }
 
 .linkSocial{
-	display: table;
+	float: left;
 }
 
 .cruz{
@@ -168,6 +169,22 @@
 	margin: 1em 0;
 	text-align: right !important;
 	color:#4D4D4D !important;
+}
+
+.seccionContacto{
+	padding-bottom: 2em;
+}
+
+.imgenLiga{
+	display: inline;
+}
+
+.tituloLiga{
+	margin-top: 3em;
+}
+
+#afiliada{
+	padding: 2em 0;
 }
 
 #mapa iframe{
