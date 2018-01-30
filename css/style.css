@@ -7,7 +7,12 @@
 }
 
 .textoVerde{
-	color:#07200B !important;
+	color:#114821 !important;
+}
+
+.iziModal-header-title{
+	font-weight: bold;
+	color:#114821 !important;
 }
 
 .textoCenter{
