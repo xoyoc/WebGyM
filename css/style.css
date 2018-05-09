@@ -23,6 +23,16 @@
 	color:#4D4D4D;
 }
 
+.textoLeerMasLink{
+	color:#ca9b37 !important;
+	font-weight: bold;
+}
+
+.textoLeerMasLink:hover{
+	color:#4D4D4D!important;
+	font-weight: bold;
+}
+
 .textoBold{
 	font-weight: bold;
 }
@@ -137,8 +147,9 @@
 }
 
 .entradaContacto{
+	color:#444;
 	width: 100%;
-	font-size: 1.3em;
+	font-size: 1rem;
 	border: none;
     background: none;
     padding-bottom: 10px;
@@ -159,6 +170,7 @@
 
 .linkSocial{
 	float: left;
+	color: #224626 !important;
 }
 
 .cruz{
@@ -182,6 +194,20 @@
 
 .imgenLiga{
 	display: inline;
+	width: 25%;
+}
+
+.imgenLigaEo{
+	display: inline;
+	width: 25%;
+	margin: 1.5em 0;
+}
+
+.imgenLigaFiata{
+	margin-right: 1em;
+	margin-left: 1em;
+	display: inline;
+	width: 16%;
 }
 
 .tituloLiga{
@@ -225,4 +251,34 @@
 .subTitulosAviso{
 	font-weight: bold;
 	color:#114821;
+}
+
+.lista{
+	text-align: left;
+}
+
+.iziModal-header-title{
+	color:white !important;
+	font-weight: bold;
+}
+
+.iziModal-header-subtitle{
+	color:white !important;
+	font-weight: bold;
+}
+
+.seccionCotizaciones{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.botonCotizar{
+	width: 10%;
+	justify-self:center;
+}
+
+.imagenVision{
+	height: 100% !important;
+	width: 100% !important;
+	min-width: initial !important;
 }
