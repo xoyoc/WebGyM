@@ -112,6 +112,10 @@
 	padding: 2em 0;
 }
 
+.padding1{
+	padding: 1em 0;
+}
+
 .fondoBlanco{
 	background-color: white;
 }
@@ -134,8 +138,20 @@
 	width: 150%;
 }
 
-.top-nav,.top-nav>ul,.top-nav>ul>li,.top-nav li a:hover, .top-nav li.active-item a{
+.top-nav,.top-nav ul,.top-nav ul li,.top-nav li a:hover, .top-nav li.active-item a{
 	height: 100px;
+}
+
+.top-nav li a{
+	font-size: 1em;
+}
+
+.about-us article p h5{
+	font-size: 1.4em;
+}
+
+.fuenteG{
+	font-size: 1.8em;
 }
 
 .botonVerde{
