@@ -194,12 +194,11 @@
 }
 
 .iconSocial{
-	width: 15%;
+	width: 10%;
 	display: inline;
 }
 
 .linkSocial{
-	float: left;
 	color: #224626 !important;
 }
 
@@ -219,7 +218,7 @@
 }
 
 .seccionContacto{
-	padding-bottom: 2em;
+	
 }
 
 .imgenLiga{
