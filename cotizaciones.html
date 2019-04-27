@@ -15,8 +15,8 @@
       <link rel="stylesheet" href="css/style.css">
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
-      <script type="text/javascript" src="js/template-scripts.js"></script> 
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/template-scripts.js"></script>
    </head>
    <body class="size-1140">
       <!-- TOP NAV WITH LOGO -->
@@ -24,15 +24,15 @@
          <div id="topbar" class="fondoVerdeOscuro">
             <div class="line">
                <div class="s-12 m-6 l-6">
-                 <p class="textoBlanco">CONTÁCTANOS: <strong class="textoBlanco">(33) 1598 7901</strong> | <strong class="textoBlanco">informacion@gymintegradora.net</strong></p>
+                 <p class="textoBlanco"><strong class="textoBlanco">CONTÁCTANOS: (33) 1598 7901</strong> | <strong class="textoBlanco">informes@gymintegradora.net</strong></p>
                </div>
                <div class="s-12 m-6 l-6">
                   <div class="social right">
-                     <a><i class="icon-facebook_circle"></i></a> <a><i class="icon-twitter_circle"></i></a> <a><i class="icon-google_plus_circle"></i></a> <a><i class="icon-instagram_circle"></i></a>
+                     <a><i class="icon-facebook_circle"></i></a> <a><i class="icon-twitter_circle"></i></a> <a><i class="icon-instagram_circle"></i></a>
                   </div>
                </div>
-            </div>  
-         </div> 
+            </div>
+         </div>
          <nav class="fondoVerdeClaro">
             <div class="line">
                <div class="s-12 l-2">
@@ -41,18 +41,18 @@
                <div class="top-nav s-12 l-10">
                   <p class="nav-text">Menu</p>
                   <ul class="right">
-                     <li><a href="index.html">Inicio</a></li>
-                     <li><a href="index.html#servicios">Servicios</a></li>
-                     <li class="active-item"><a href="index.html#cotizador">Cotizador</a></li>
-                     <li><a href="index.html#about-us">Quiénes Somos</a></li>
-                     <li><a href="index.html#livetrack">Live Track</a></li>
-                     <li><a href="index.html#noticias">Noticias</a></li>
-                     <li><a href="index.html#contacto">Contacto</a></li>
+                     <li class="active-item"><a href="#carousel">Inicio</a></li>
+                     <li><a href="#servicios">Servicios</a></li>
+                     <li><a href="#cotizador">Cotizador</a></li>
+                     <li><a href="#about-us">Quiénes Somos</a></li>
+					           <li><a href="#livetrack">Live Track</a></li>
+                     <li><a href="#noticias">Noticias</a></li>
+                     <li><a href="#contacto">Contáctanos</a></li>
                   </ul>
                </div>
             </div>
          </nav>
-      </header>  
+      </header>
       <section>
       <!-- Laminas de Cotizacion -->
          <div class="slider">
@@ -102,21 +102,23 @@
             </div>
           </div>
          </div>
-         
-      <!-- FOOTER -->
-      <footer class="fondoVerde">
-         <div class="line">
-            <div class="s-12 l-3">
-              <img src="img/LogotipoAmarillo.svg" alt="Logotipo">
-            </div>
-            <div class="s-12 l-3">
-              <img src="img/Logotipo_AAPadilla.png" alt="Logotipo de AA Padilla">
-            </div>
-            <div class="s-12 l-6">
-               <p class="textoBold">Derechos reservados 2018, G&M Integradora de Servicios Logísticos - <a class="textoBold textoAmarillo" href="aviso.html">Aviso de Privacidad</a></p>
-            </div>
-         </div>
-      </footer>
+
+       <!-- FOOTER -->
+       <footer class="fondoVerde">
+          <div class="line">
+             <div class="s-12 l-3">
+               <img src="img/LogotipoAmarillo.svg" alt="Logotipo">
+             </div>
+             <div class="s-12 l-3" >
+               <a href="http://www.aapadilla.net" target="_blank">
+                 <img src="img/Logotipo_AAPadilla.png" alt="Logotipo de AA Padilla">
+               </a>
+             </div>
+             <div class="s-12 l-6">
+                <p class="textoBold">Derechos reservados 2018, G&M Integradora de Servicios Logísticos - <a class="textoBold textoAmarillo" href="aviso.html">Aviso de Privacidad</a></p>
+             </div>
+          </div>
+       </footer>
       <script type="text/javascript" src="js/responsee.js"></script>
       <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
       <script type="text/javascript">
@@ -139,15 +141,15 @@
                 pagination: false,
                 singleItem: true
             });
-        
+
             // Custom Navigation Events
             $(".next-arrow").click(function() {
                 theme_slider.trigger('owl.next');
             })
             $(".prev-arrow").click(function() {
                 theme_slider.trigger('owl.prev');
-            })     
-        }); 
+            })
+        });
       </script>
    </body>
 </html>
